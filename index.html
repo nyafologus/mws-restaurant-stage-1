@@ -19,23 +19,28 @@
   </header>
 
   <main id="maincontent">
-    <section id="map-container">
+    <section id="map-container" aria-labelledby="aria-description-map" role="application">
       <div id="map"></div>
     </section>
+    <label id="aria-description-map" class="aria-description-map">Google Maps App</label>
     <section>
       <div class="filter-options">
         <h2>Filter Results</h2>
 
         <div class="filter-selects">
+
           <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
             <option value="all">All Neighborhoods</option>
           </select>
+          <label id="aria-neighborhoods" class="aria-filter">Neighborhoods</label>
 
           <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
             <option value="all">All Cuisines</option>
           </select>
+          <label id="aria-cuisines" class="aria-filter">Cuisines</label>
 
         </div>
+
       </div>
       <ul id="restaurants-list"></ul>
     </section>
@@ -47,7 +52,10 @@
 
 
   <footer id="footer">
-    Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
+    Copyright (c) 2017 
+    <a href="/">
+      <strong>Restaurant Reviews</strong>
+    </a> All Rights Reserved.
   </footer>
 
 </body>

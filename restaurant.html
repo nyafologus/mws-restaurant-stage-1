@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,13 +17,13 @@
     <!-- Beginning nav -->
     <nav>
       <h1>
-        <a href="/">Restaurant Reviews</a>
+        <a aria-label="Restaurant Reviews" href="/">Restaurant Reviews</a>
       </h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
+    <ul aria-label="Breadcrumb" aria-role="navigation" id="breadcrumb" >
       <li>
-        <a href="/">Home</a>
+        <a aria-label="Home Page" href="/">Home</a>
       </li>
     </ul>
     <!-- End breadcrumb -->
@@ -55,7 +55,7 @@
     <!-- End map -->
 
     <!-- Beginning reviews -->
-    <section id="reviews-container">
+    <section aria-label="Restaurant Reviews" id="reviews-container">
       <ul id="reviews-list"></ul>
     </section>
     <!-- End reviews -->
@@ -76,6 +76,8 @@
   <script type="text/javascript" src="js/dbhelper.js"></script>
   <!-- Main javascript file -->
   <script type="text/javascript" src="js/restaurant_info.js"></script>
+  <!-- ServiceWorker file -->
+  <script type="text/javascript" charset="utf-8" src="js/swregister.js"></script>
   <!-- Google Maps -->
  <!--  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_tKbW6A5pQ-eupxI56myUnHLqYCzOjKo&libraries=places&callback=initMap"></script> -->
   <!-- End scripts -->

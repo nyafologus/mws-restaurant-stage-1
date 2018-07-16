@@ -1,3 +1,9 @@
+// Empty the old caches if there are any
+caches.keys().then(names => {
+    for (let name of names)
+        caches.delete(name);
+});
+
 let cacheVersion = 'version1';
 let cacheFiles = [
   "/",

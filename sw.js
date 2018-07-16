@@ -32,9 +32,9 @@ self.addEventListener("install", event => {
       return cache
         .addAll(cacheFiles)
         .catch(error => {
-          console.log("Failed to create cache");
+        console.log("Failed to create cache");
         });
-    });
+    }));
 });
 
 //when a request is made

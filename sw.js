@@ -30,7 +30,7 @@ self.addEventListener("install", event => {
       .then(cache => {
       console.log("Opened cache");
       return cache
-        .addAll(cacheFiles);
+        .addAll(cacheFiles)
         .catch(error => {
           console.log("Failed to create cache");
         });

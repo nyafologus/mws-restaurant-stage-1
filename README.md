@@ -6,11 +6,9 @@
 
 ### Specification
 
-We have been provided the code for a restaurant reviews website. The code had a lot of issues. It was barely usable on a desktop browser, much less a mobile device. It also didn’t include any standard accessibility features, and it didn’t work offline at all. Our job was to update the code to resolve these issues while still maintaining the included functionality. 
+We have been provided with the code for a restaurant reviews website. The code had a lot of issues, it was barely usable on a desktop browser, much less a mobile device. It also didn’t include any standard accessibility features and didn’t work offline at all. Our job was to update the code to resolve these issues while still maintaining the included functionality.
 
-## Instructions
-
-#### Installation:
+### Installation Instructions:
 
 Copy/clone repository from Github using Git:
 ```sh
@@ -22,10 +20,9 @@ In a terminal, check the version of Python you have: `python -V`. If you have Py
 
 With your server running, visit the site: `http://localhost:8000`
 
- Once a page has been visited, it should be able to be revisited even in offline mode.
+Once a page has been visited, it should be able to be revisited even in offline mode.
 
 ## Dependencies:
 
-The app was built with the following code dependencies:
-
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
+The app was built with the following code dependencies: [leafletjs](https://leafletjs.com/) and [Mapbox](https://www.mapbox.com/).
+Both are free to use, and do not require any payment information.
